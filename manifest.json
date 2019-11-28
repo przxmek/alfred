@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
-  "name": "Product Hunt Tab",
-  "author": "Przemysław Kuczyński",
+  "name": "Alfred: Your Personal Assistant",
+  "description": "Alfred is your personal assistant. You can use him to speed up repetetive tasks!",
   "version": "0.1.0",
-  "description": "Replace new tab screen with Product Hunt daily projects.",
+  "author": "Przemysław Kuczyński",
   "permissions": ["alarms", "storage"],
   "browser_action": {
     "default_popup": "popup/index.html",

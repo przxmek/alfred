@@ -1,6 +1,16 @@
 {
   "name": "alfred",
+  "description": "Alfred is your personal assistant. You can use him to speed up repetetive tasks!",
   "version": "0.1.0",
+  "author": "Przemysław Kuczyński",
+  "license": "Unlicensed",
+  "homepage": "https://github.com/przxmek/alfred#readme",
+  "keywords": [
+    "chrome",
+    "extension",
+    "typescript",
+    "react"
+  ],
   "private": true,
   "scripts": {
     "build:contentscript-background": "NODE_ENV=production webpack --config webpack.config.js",
@@ -13,6 +23,13 @@
     "prebuild": "npm run clean",
     "prewatch": "npm run clean",
     "zip": "rm -f extension.zip && cd dist / && bestzip ../extension.zip *"
+  },
+  "bugs": {
+    "url": "https://github.com/przxmek/alfred/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/przxmek/alfred"
   },
   "dependencies": {},
   "devDependencies": {
